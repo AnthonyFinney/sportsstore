@@ -1,0 +1,49 @@
+# .NET Core build files
+bin/
+obj/
+**/*.dll
+**/*.exe
+**/*.pdb
+**/*.cache
+**/*.log
+**/*.userprefs
+**/*.ilk
+**/*.meta
+**/*.obj
+**/*.pch
+**/*.dbmdl
+**/*.jfm
+
+# VS Code files
+.vscode/
+
+# Rider / JetBrains files
+.idea/
+*.sln.iml
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ASP.NET Core specific files
+appsettings.*.json
+
+# Package dependency folders
+node_modules/
+wwwroot/lib/
+
+# Publish output folder
+.publish/
